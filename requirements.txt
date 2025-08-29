@@ -1,0 +1,9 @@
+ultralytics
+opencv-python
+numpy
+pygame
+pyserial
+python-dotenv
+twilio
+firebase-admin
+google-cloud-storage
