@@ -42,14 +42,23 @@ Pygame → Play deterrent sounds
 
 # 📂 Project Structure
 wildguard/
+
 │── detection.py          # Main detection loop
+
 │── alert.py              # Alert pipeline (sound, buzzer, sms, firebase)
+
 │── sound.py              # Plays deterrent sounds
+
 │── message.py            # Twilio SMS/WhatsApp functions
+
 │── buzzer.py             # ESP32 buzzer trigger
+
 │── firebase_utils.py     # Firebase Firestore logging
+
 │── .env                  # Secrets (Twilio, Firebase config, ESP32 port)
+
 │── assets/               # Alarm sounds (firecracker, dog bark, etc.)
+
 │── snapshots/            # Auto-saved detection images
 
 # ⚡ Installation
@@ -134,5 +143,6 @@ Reducing crop damage
 Protecting farmer livelihoods
 
 Minimizing human-wildlife conflicts
+
 
 
