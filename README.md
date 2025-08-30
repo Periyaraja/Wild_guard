@@ -1,9 +1,9 @@
-🌱 WildGuard – AI + IoT Farm Protection System
+# 🌱 WildGuard – AI + IoT Farm Protection System
 
 WildGuard is a smart surveillance and alert system designed to protect farmlands from wild animal intrusions.
 It combines AI-powered detection, IoT-based deterrents, and cloud-connected alerts to act as a 24/7 digital guard for farmers.
 
-🚜 Problem Statement
+# 🚜 Problem Statement
 
 Farmers face huge losses when wild animals like elephants, monkeys, or boars enter their fields.
 Traditional fences, CCTV, or alarms often fail because:
@@ -16,7 +16,7 @@ They don’t provide real-time warnings to farmers.
 
 WildGuard solves this by combining computer vision + IoT + cloud alerts in one powerful system.
 
-🛠️ Features
+# 🛠️ Features
 
 ✅ Real-time animal detection using YOLOv8
 ✅ Animal-specific deterrent sounds (e.g., firecrackers for elephants, dog barking for monkeys)
@@ -26,7 +26,7 @@ WildGuard solves this by combining computer vision + IoT + cloud alerts in one p
 ✅ Ignores humans to prevent false alarms
 ✅ Modular design → expandable to multiple cameras
 
-🔧 Tech Stack
+# 🔧 Tech Stack
 
 Python → Detection engine
 
@@ -40,7 +40,7 @@ Firebase Firestore → Cloud database for logging events
 
 Pygame → Play deterrent sounds
 
-📂 Project Structure
+# 📂 Project Structure
 wildguard/
 │── detection.py          # Main detection loop
 │── alert.py              # Alert pipeline (sound, buzzer, sms, firebase)
@@ -52,7 +52,7 @@ wildguard/
 │── assets/               # Alarm sounds (firecracker, dog bark, etc.)
 │── snapshots/            # Auto-saved detection images
 
-⚡ Installation
+# ⚡ Installation
 1. Clone this repo
 git clone https://github.com/your-username/wildguard.git
 cd wildguard
@@ -103,7 +103,7 @@ graph TD;
     Detection -->|SMS/WhatsApp| Twilio[Twilio API]
     Firebase --> FarmerApp[Mobile Farmer Alerts]
 
-📊 Example Output
+# 📊 Example Output
 
 Detected: Elephant (0.87 confidence)
 
@@ -113,7 +113,7 @@ Firebase log: Event stored with timestamp
 
 Twilio alert: Farmer receives SMS/WhatsApp
 
-🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 GPS location tagging with alerts
 
@@ -125,7 +125,7 @@ AI model fine-tuned for Indian wildlife
 
 Solar-powered standalone version
 
-❤️ Impact
+# ❤️ Impact
 
 WildGuard isn’t just a tech project – it’s a step towards:
 
@@ -135,6 +135,4 @@ Protecting farmer livelihoods
 
 Minimizing human-wildlife conflicts
 
-👨‍💻 Contributors
 
-PR (You!) – Project Lead & Developer
